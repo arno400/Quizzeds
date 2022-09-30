@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body>
+<div id="headerout">
+	<div id="header">
+		<div id="logo"><a href="/"><img src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/calculator-white.svg" width="208" height="22"></a></div>
+			</div>
+</div>
+<div id="clear"></div><div id="contentout"><div id="content"><div id="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><span itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a href="/" itemprop="item"><span itemprop="name">home</span></a><meta itemprop="position" content="1"></span> / <span itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a href="/math-calculator.html" itemprop="item"><span itemprop="name">math</span></a><meta itemprop="position" content="2"></span> / <span itemprop="itemListElement" itemscope="" itemtype="https://schema.org/ListItem"><a href="/fraction-calculator.html" itemprop="item"><span itemprop="name">fraction calculator</span></a><meta itemprop="position" content="3"></span></div>		<h1>Fraction Calculator</h1>
+<p>Below are multiple fraction calculators capable of addition, subtraction, multiplication, division, simplification, and conversion between fractions and decimals. Fields above the solid black line represent the numerator, while fields below represent the denominator.</p>
+
+
+<table border="0" cellspacing="5" cellpadding="0" class="panel">
+<form action="/fraction-calculator.html" name="calform"></form>
+<tbody><tr>
+	<td align="center"><input type="text" name="t1" id="t1" value="2" class="innormal" maxlength="8"></td>
+	<td rowspan="3" align="center" valign="middle"><select name="op" id="op" style="width:60px;">
+		<option value="+" selected=""> + </option>
+		<option value="-"> - </option>
+		<option value="*"> x </option>
+		<option value="/"> / </option>
+	</select></td>
+	<td align="center"><input type="text" name="t2" id="t2" value="3" class="innormal" maxlength="8"></td>
+	<td rowspan="3" align="center" valign="middle" class="verybigtext"> <b>=</b> </td>
+	<td align="center" class="verybigtext">?</td>
+</tr>
+<tr>
+	<td bgcolor="#000000" height="2"></td>
+	<td bgcolor="#000000" height="2"></td>
+	<td bgcolor="#000000" height="2"></td>
+</tr>
+<tr>
+	<td align="center"><input type="text" name="b1" id="b1" value="7" class="innormal" maxlength="8"></td>
+	<td align="center"><input type="text" name="b2" id="b2" value="8" class="innormal" maxlength="8"></td>
+	<td align="center" class="verybigtext">?</td>
+</tr>
+<tr>
+	<td align="center" colspan="5" style="padding-top:10px;"><input name="ctype" value="1" type="hidden"><input type="image" src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/calculate.svg" value="Calculate" alt="Calculate"> <img src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/clear.svg" onclick="clearForm(document.calform);" class="clearbtn"></td>
+</tr>
+
+</tbody></table>
+
+
+
+<a name="mixednumbers"></a>
+<br><h2>Mixed Numbers Calculator</h2>
+
+<h2 class="h2result">Result</h2><table id="fcoutput"><tbody><tr><td><table cellpadding="0"><tbody><tr><td rowspan="3">2</td><td align="center">13</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">45</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td rowspan="3">3</td><td align="center">15</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">65</td></tr></tbody></table></td><td>=</td><td><table id="fcoutput"><tbody><tr><td><table cellpadding="0"><tbody><tr><td rowspan="3">–</td><td align="center">551</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">585</td></tr></tbody></table></td></tr></tbody></table></td></tr></tbody></table><p>Result in decimals: -0.94188034188034</p><p style="padding-top:10px;"><b>Calculation steps:</b></p><div style="padding-left:10px;"><table><tbody><tr><td><table cellpadding="0"><tbody><tr><td rowspan="3">2</td><td align="center">13</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">45</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td rowspan="3">3</td><td align="center">15</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">65</td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td>=&nbsp;</td><td>(2 – 3) + (</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">13</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">45</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">15</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">65</td></tr></tbody></table></td><td>)</td></tr></tbody></table><table><tbody><tr><td>=&nbsp;</td><td>-1 +</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">13 × 13</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">45 × 13</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">15 × 9</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">65 × 9</td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td>=&nbsp;</td><td>-1 +</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">169</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">135</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td>=&nbsp;</td><td>-1 +</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">169 – 135</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td>=&nbsp;</td><td>-1 +</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">34</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td></tr></tbody></table><table><tbody><tr><td>=&nbsp;</td><td><table cellpadding="0"><tbody><tr><td rowspan="3">–</td><td align="center">551</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">585</td></tr></tbody></table></td></tr></tbody></table></div><div id="furtherexplink"><a href="#" onclick="document.getElementById('furtherexpfull').style.display = 'block';document.getElementById('furtherexplink').style.display = 'none';return false;">+ Show further explanation</a></div><div id="furtherexpfull" style="display:none;"><p><b>Further explanation</b></p><div style="padding-left:10px;"><p>For the problem:</p><table align="center"><tbody><tr><td><table cellpadding="0"><tbody><tr><td rowspan="3">2</td><td align="center">13</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">45</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td rowspan="3">3</td><td align="center">15</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">65</td></tr></tbody></table></td><td>&nbsp;= ?</td></tr></tbody></table><p>Combine the whole numbers and fractions together:</p><table align="center"><tbody><tr><td>(2 – 3) + (</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">13</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">45</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">15</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">65</td></tr></tbody></table></td><td>)</td></tr></tbody></table><p>The whole numbers part is:</p><table align="center"><tbody><tr><td>2 – 3 = -1</td></tr></tbody></table><p>For the fractions part:</p><p>The <a href="/lcm-calculator.html?numberinputs=45%2C+65&amp;x=54&amp;y=13">Least Common Multiple (LCM) of 45 and 65</a> is 585. Multiply the numerator and denominator of each fraction by whatever value will result in the denominator of each fraction being equal to the LCM:</p><table align="center"><tbody><tr><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">13</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">45</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">15</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">65</td></tr></tbody></table></td><td>=</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">13 × 13</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">45 × 13</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">15 × 9</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">65 × 9</td></tr></tbody></table></td><td>=</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">169</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">135</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td></tr></tbody></table><p>Now that the fractions have like denominators, subtract the numerators:</p><table align="center"><tbody><tr><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">169</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">135</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td><td>=</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">169 – 135</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td><td>=</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">34</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td></tr></tbody></table><p>Put the whole number and fraction together:</p><table align="center"><tbody><tr><td>-1 +</td><td><table cellpadding="0"><tbody><tr><td align="center" nowrap="">34</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center" nowrap="">585</td></tr></tbody></table></td><td>=</td><td><table cellpadding="0"><tbody><tr><td rowspan="3">–</td><td align="center">551</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">585</td></tr></tbody></table></td></tr></tbody></table><p>The result is:</p><table align="center"><tbody><tr><td><table cellpadding="0"><tbody><tr><td rowspan="3">2</td><td align="center">13</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">45</td></tr></tbody></table></td><td>–</td><td><table cellpadding="0"><tbody><tr><td rowspan="3">3</td><td align="center">15</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">65</td></tr></tbody></table></td><td>=</td><td><table cellpadding="0"><tbody><tr><td rowspan="3">–</td><td align="center">551</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">585</td></tr></tbody></table></td></tr></tbody></table></div></div><br><br>
+<table border="0" cellspacing="5" cellpadding="0" class="panel">
+<form action="/fraction-calculator.html#mixednumbers" name="calform5"></form>
+<tbody><tr>
+	<td align="center"><input type="text" name="c5num1" id="c5num1" value="2 13/45" class="inlonger" maxlength="10"></td>
+	<td align="center" valign="middle"><select name="c5op" id="c5op" style="width:60px;">
+		<option value="+"> + </option>
+		<option value="-" selected=""> - </option>
+		<option value="*"> x </option>
+		<option value="/"> / </option>
+	</select></td>
+	<td align="center"><input type="text" name="c5num2" id="c5num2" value="3 15/65" class="inlonger" maxlength="10"></td>
+	<td align="center" valign="middle" class="verybigtext"> <b>= ?</b> </td>
+</tr>
+<tr>
+	<td align="center" colspan="4" style="padding-top:10px;"><input name="ctype" value="5" type="hidden"><input type="image" src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/calculate.svg" value="Calculate" alt="Calculate"> <img src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/clear.svg" onclick="clearForm(document.calform5);" class="clearbtn"></td>
+</tr>
+
+</tbody></table>
+<div style="padding:10px 0px;text-align:center;">
+</div>
+
+
+
+
+<a name="simplify"></a>
+<br><h2>Simplify Fractions Calculator</h2>
+<table border="0" cellspacing="5" cellpadding="0" class="panel">
+<form action="/fraction-calculator.html#simplify" name="calform4"></form>
+<tbody><tr>
+	<td rowspan="3" align="center" valign="middle"><input type="text" name="c4l1" id="c4l1" value="2" class="inlong"></td>
+	<td align="center"><input type="text" name="c4t1" id="c4t1" value="21" class="inlong"></td>
+	<td rowspan="3" align="center" valign="middle" class="verybigtext"> <b>=</b>
+	?</td>
+</tr>
+<tr>
+	<td bgcolor="#000000" height="2"></td>
+</tr>
+<tr>
+	<td align="center"><input type="text" name="c4b1" id="c4b1" value="98" class="inlong"></td>
+</tr>
+<tr>
+	<td align="center" colspan="3" style="padding-top:10px;"><input name="ctype" value="4" type="hidden"><input type="image" src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/calculate.svg" value="Calculate" alt="Calculate"> <img src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/clear.svg" onclick="clearForm(document.calform4);" class="clearbtn"></td>
+</tr>
+
+</tbody></table>
+
+
+<a name="decimal2fraction"></a>
+<br><h2>Decimal to Fraction Calculator</h2>
+<table border="0" cellspacing="5" cellpadding="0" class="panel">
+<form action="/fraction-calculator.html#decimal2fraction" name="calform2"></form>
+<tbody><tr>
+	<td rowspan="3" align="center" valign="middle" class="verybigtext">
+		<input type="text" name="c2d1" id="c2d1" value="1.375" class="inlonger">
+		<b>=</b>
+	</td>
+	<td align="center" class="verybigtext">?</td>
+</tr>
+<tr>
+	<td bgcolor="#000000" height="2"></td>
+</tr>
+<tr>
+	<td align="center" class="verybigtext">?</td>
+</tr>
+<tr>
+	<td align="center" colspan="2"><input name="ctype" value="2" type="hidden"><input type="image" src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/calculate.svg" value="Calculate" alt="Calculate"> <img src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/clear.svg" onclick="clearForm(document.calform2);" class="clearbtn"></td>
+</tr>
+
+</tbody></table>
+
+
+<a name="fraction2decimal"></a>
+<br><h2>Fraction to Decimal Calculator</h2>
+<table border="0" cellspacing="5" cellpadding="0" class="panel">
+<form action="/fraction-calculator.html#fraction2decimal" name="calform3"></form>
+<tbody><tr>
+	<td align="center"><input type="text" name="c3t1" id="c3t1" value="2" class="inlonger"></td>
+	<td rowspan="3" align="center" valign="middle" class="verybigtext"> <b>=</b> ?</td>
+</tr>
+<tr>
+	<td bgcolor="#000000" height="2"></td>
+</tr>
+<tr>
+	<td align="center"><input type="text" name="c3b1" id="c3b1" value="7" class="inlonger"></td>
+</tr>
+<tr>
+	<td align="center" colspan="2" style="padding-top:10px;"><input name="ctype" value="3" type="hidden"><input type="image" src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/calculate.svg" value="Calculate" alt="Calculate"> <img src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/clear.svg" onclick="clearForm(document.calform3);" class="clearbtn"></td>
+</tr>
+
+</tbody></table>
+
+
+<a name="bignumber"></a>
+<br><h2>Big Number Fraction Calculator</h2>
+<p>Use this calculator if the numerators or denominators are very big integers.</p>
+<table border="0" cellspacing="5" cellpadding="0" class="panel">
+<form action="/fraction-calculator.html#bignumber" name="calform6"></form>
+<tbody><tr>
+	<td align="center"><input type="text" name="c6t1" value="1234" class="inlongest"></td>
+	<td rowspan="3" align="center" valign="middle"><select name="c6op" style="width:60px;">
+		<option value="+" selected=""> + </option>
+		<option value="-"> - </option>
+		<option value="*"> x </option>
+		<option value="/"> / </option>
+	</select></td>
+	<td align="center"><input type="text" name="c6t2" value="33434421132232234333" class="inlongest"></td>
+	<td rowspan="3" align="center" valign="middle" class="verybigtext">= ?</td>
+</tr>
+<tr>
+	<td bgcolor="#000000" height="2"></td>
+	<td bgcolor="#000000" height="2"></td>
+</tr>
+<tr>
+	<td align="center"><input type="text" name="c6b1" value="748892928829" class="inlongest"></td>
+	<td align="center"><input type="text" name="c6b2" value="8877277388288288288" class="inlongest"></td>
+</tr>
+<tr>
+	<td align="center" colspan="4" style="padding-top:10px;"><input name="ctype" value="6" type="hidden"><input type="image" src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/calculate.svg" value="Calculate" alt="Calculate"> <img src="//d26tpo4cm8sb6k.cloudfront.net/img/svg/clear.svg" onclick="clearForm(document.calform6);" class="clearbtn"></td>
+</tr>
+
+</tbody></table>
+
+
+<br><br>
+<img src="//d26tpo4cm8sb6k.cloudfront.net/img/fraction/fraction-pie.png" align="right">
+<p>In mathematics, a fraction is a number that represents a part of a whole. It consists of a numerator and a denominator. The numerator represents the number of equal parts of a whole, while the denominator is the total number of parts that make up said whole. For example, in the fraction of </p><table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td>3</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>8</td></tr></tbody></table>, the numerator is 3, and the denominator is 8. A more illustrative example could involve a pie with 8 slices. 1 of those 8 slices would constitute the numerator of a fraction, while the total of 8 slices that comprises the whole pie would be the denominator. If a person were to eat 3 slices, the remaining fraction of the pie would therefore be <table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td>5</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>8</td></tr></tbody></table> as shown in the image to the right. Note that the denominator of a fraction cannot be 0, as it would make the fraction undefined. Fractions can undergo many different operations, some of which are mentioned below.<p></p>
+
+
+<h3>Addition:</h3>
+<p>Unlike adding and subtracting integers such as 2 and 8, fractions require a common denominator to undergo these operations. One method for finding a common denominator involves multiplying the numerators and denominators of all of the fractions involved by the product of the denominators of each fraction. Multiplying all of the denominators ensures that the new denominator is certain to be a multiple of each individual denominator. The numerators also need to be multiplied by the appropriate factors to preserve the value of the fraction as a whole. This is arguably the simplest way to ensure that the fractions have a common denominator. However, in most cases, the solutions to these equations will not appear in simplified form (the provided calculator computes the simplification automatically). Below is an example using this method.</p>
+
+<table align="center"><tbody><tr>
+<td><table cellpadding="0"><tbody><tr><td>a</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>b</td></tr></tbody></table></td>
+<td> + </td>
+<td><table cellpadding="0"><tbody><tr><td>c</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>d</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>a×d</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>b×d</td></tr></tbody></table></td>
+<td> + </td>
+<td><table cellpadding="0"><tbody><tr><td>c×b</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>d×b</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>ad + bc</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">bd</td></tr></tbody></table></td>
+</tr></tbody></table>
+
+<table align="center"><tbody><tr>
+<td>EX: </td>
+<td><table cellpadding="0"><tbody><tr><td>3</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4</td></tr></tbody></table></td>
+<td> + </td>
+<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>6</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>3×6</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4×6</td></tr></tbody></table></td>
+<td> + </td>
+<td><table cellpadding="0"><tbody><tr><td>1×4</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>6×4</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>22</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>24</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>11</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>12</td></tr></tbody></table></td>
+</tr></tbody></table>
+
+<p>This process can be used for any number of fractions. Just multiply the numerators and denominators of each fraction in the problem by the product of the denominators of all the other fractions (not including its own respective denominator) in the problem.</p>
+<table align="center"><tbody><tr>
+<td>EX: </td>
+<td>
+	<table><tbody><tr>
+		<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>6</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>2</td></tr></tbody></table></td>
+		<td> = </td>
+		<td><table cellpadding="0"><tbody><tr><td>1×6×2</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4×6×2</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td>1×4×2</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>6×4×2</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td>1×4×6</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>2×4×6</td></tr></tbody></table></td>
+	</tr></tbody></table>
+</td></tr>
+<tr>
+<td align="right">=</td>
+<td>
+	<table><tbody><tr>
+		<td><table cellpadding="0"><tbody><tr><td>12</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>48</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td align="center">8</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>48</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td>24</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>48</td></tr></tbody></table></td>
+		<td> = </td>
+		<td><table cellpadding="0"><tbody><tr><td>44</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>48</td></tr></tbody></table></td>
+		<td> = </td>
+		<td><table cellpadding="0"><tbody><tr><td>11</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>12</td></tr></tbody></table></td>
+	</tr></tbody></table>
+</td></tr></tbody></table>
+<p>An alternative method for finding a common denominator is to determine the <a href="/lcm-calculator.html">least common multiple (LCM)</a> for the denominators, then add or subtract the numerators as one would an integer. Using the least common multiple can be more efficient and is more likely to result in a fraction in simplified form. In the example above, the denominators were 4, 6, and 2. The least common multiple is the first shared multiple of these three numbers.</p>
+<table align="center">
+	<tbody><tr><td>Multiples of 2: 2, 4, 6, 8 10, <b>12</b></td></tr>
+	<tr><td>Multiples of 4: 4, 8, <b>12</b></td></tr>
+	<tr><td>Multiples of 6: 6, <b>12</b></td></tr>
+</tbody></table>
+<p>The first multiple they all share is 12, so this is the least common multiple. To complete an addition (or subtraction) problem, multiply the numerators and denominators of each fraction in the problem by whatever value will make the denominators 12, then add the numerators.</p>
+<table align="center"><tbody><tr>
+<td>EX: </td>
+<td>
+	<table><tbody><tr>
+		<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>6</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>2</td></tr></tbody></table></td>
+		<td> = </td>
+		<td><table cellpadding="0"><tbody><tr><td>1×3</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4×3</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td>1×2</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>6×2</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td>1×6</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>2×6</td></tr></tbody></table></td>
+	</tr></tbody></table>
+</td></tr>
+<tr>
+<td align="right">=</td>
+<td>
+	<table><tbody><tr>
+		<td><table cellpadding="0"><tbody><tr><td align="center">3</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>12</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td align="center">2</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>12</td></tr></tbody></table></td>
+		<td> + </td>
+		<td><table cellpadding="0"><tbody><tr><td align="center">6</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>12</td></tr></tbody></table></td>
+		<td> = </td>
+		<td><table cellpadding="0"><tbody><tr><td>11</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>12</td></tr></tbody></table></td>
+	</tr></tbody></table>
+</td></tr></tbody></table>
+
+<h3>Subtraction:</h3>
+<p>Fraction subtraction is essentially the same as fraction addition. A common denominator is required for the operation to occur. Refer to the addition section as well as the equations below for clarification.</p>
+<table align="center"><tbody><tr>
+<td><table cellpadding="0"><tbody><tr><td>a</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>b</td></tr></tbody></table></td>
+<td> – </td>
+<td><table cellpadding="0"><tbody><tr><td>c</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>d</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>a×d</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>b×d</td></tr></tbody></table></td>
+<td> – </td>
+<td><table cellpadding="0"><tbody><tr><td>c×b</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>d×b</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>ad – bc</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">bd</td></tr></tbody></table></td>
+</tr></tbody></table>
+
+<table align="center"><tbody><tr>
+<td>EX: </td>
+<td><table cellpadding="0"><tbody><tr><td>3</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4</td></tr></tbody></table></td>
+<td> – </td>
+<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>6</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>3×6</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4×6</td></tr></tbody></table></td>
+<td> – </td>
+<td><table cellpadding="0"><tbody><tr><td>1×4</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>6×4</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>14</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>24</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td align="center">7</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>12</td></tr></tbody></table></td>
+</tr></tbody></table>
+
+
+<h3>Multiplication:</h3>
+<p>Multiplying fractions is fairly straightforward. Unlike adding and subtracting, it is not necessary to compute a common denominator in order to multiply fractions. Simply, the numerators and denominators of each fraction are multiplied, and the result forms a new numerator and denominator. If possible, the solution should be simplified. Refer to the equations below for clarification. </p>
+<table align="center"><tbody><tr>
+<td><table cellpadding="0"><tbody><tr><td>a</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>b</td></tr></tbody></table></td>
+<td> × </td>
+<td><table cellpadding="0"><tbody><tr><td>c</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>d</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>ac</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">bd</td></tr></tbody></table></td>
+</tr></tbody></table>
+
+<table align="center"><tbody><tr>
+<td>EX: </td>
+<td><table cellpadding="0"><tbody><tr><td>3</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4</td></tr></tbody></table></td>
+<td> × </td>
+<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>6</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td align="center">3</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>24</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>8</td></tr></tbody></table></td>
+</tr></tbody></table>
+
+<h3>Division:</h3>
+<p>The process for dividing fractions is similar to that for multiplying fractions. In order to divide fractions, the fraction in the numerator is multiplied by the reciprocal of the fraction in the denominator. The reciprocal of a number <b>a</b> is simply </p><table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>a</td></tr></tbody></table> . When a is a fraction, this essentially involves exchanging the position of the numerator and the denominator. The reciprocal of the fraction <table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td>3</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4</td></tr></tbody></table> would therefore be <table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td>4</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>3</td></tr></tbody></table>. Refer to the equations below for clarification. <p></p>
+<table align="center"><tbody><tr>
+<td><table cellpadding="0"><tbody><tr><td>a</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>b</td></tr></tbody></table></td>
+<td> / </td>
+<td><table cellpadding="0"><tbody><tr><td>c</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>d</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>a</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>b</td></tr></tbody></table></td>
+<td> × </td>
+<td><table cellpadding="0"><tbody><tr><td>d</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>c</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>ad</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">bc</td></tr></tbody></table></td>
+</tr></tbody></table>
+
+<table align="center"><tbody><tr>
+<td>EX: </td>
+<td><table cellpadding="0"><tbody><tr><td>3</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4</td></tr></tbody></table></td>
+<td> / </td>
+<td><table cellpadding="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>6</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>3</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>4</td></tr></tbody></table></td>
+<td> × </td>
+<td><table cellpadding="0"><tbody><tr><td>6</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>1</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>18</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td align="center">4</td></tr></tbody></table></td>
+<td> = </td>
+<td><table cellpadding="0"><tbody><tr><td>9</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>2</td></tr></tbody></table></td>
+</tr></tbody></table>
+
+<h3>Simplification:</h3>
+<p>It is often easier to work with simplified fractions. As such, fraction solutions are commonly expressed in their simplified forms. </p><table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td>220</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>440</td></tr></tbody></table> for example, is more cumbersome than <table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>2</td></tr></tbody></table>. The calculator provided returns fraction inputs in both improper fraction form as well as mixed number form. In both cases, fractions are presented in their lowest forms by dividing both numerator and denominator by their greatest common factor. <p></p>
+
+<h3>Converting between fractions and decimals:</h3>
+<p>Converting from decimals to fractions is straightforward. It does, however, require the understanding that each decimal place to the right of the decimal point represents a power of 10; the first decimal place being 10<sup>1</sup>, the second 10<sup>2</sup>, the third 10<sup>3</sup>, and so on. Simply determine what power of 10 the decimal extends to, use that power of 10 as the denominator, enter each number to the right of the decimal point as the numerator, and simplify. For example, looking at the number 0.1234, the number 4 is in the fourth decimal place, which constitutes 10<sup>4</sup>, or 10,000. This would make the fraction </p><table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td align="center">1234</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>10000</td></tr></tbody></table>, which simplifies to <table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td align="center">617</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>5000</td></tr></tbody></table>, since the greatest common factor between the numerator and denominator is 2. <p></p>
+
+<p>Similarly, fractions with denominators that are powers of 10 (or can be converted to powers of 10) can be translated to decimal form using the same principles. Take the fraction </p><table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td>1</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>2</td></tr></tbody></table> for example. To convert this fraction into a decimal, first convert it into the fraction of <table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td align="center">5</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>10</td></tr></tbody></table>. Knowing that the first decimal place represents 10<sup>-1</sup>, <table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td align="center">5</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>10</td></tr></tbody></table> can be converted to 0.5. If the fraction were instead <table class="inlinetable" cellpadding="0" cellspacing="0"><tbody><tr><td align="center">5</td></tr><tr><td bgcolor="#000000" height="1"></td></tr><tr><td>100</td></tr></tbody></table>, the decimal would then be 0.05, and so on. Beyond this, converting fractions into decimals requires the operation of long division. <p></p>
+
+<h3>Common Engineering Fraction to Decimal Conversions</h3>
+<p>In engineering, fractions are widely used to describe the size of components such as pipes and bolts. The most common fractional and decimal equivalents are listed below.</p>
+
+
+<table class="cinfoT" width="100%">
+<tbody><tr align="center"><td class="cinfoHd">64<sup>th</sup></td><td class="cinfoHdL">32<sup>nd</sup></td><td class="cinfoHdL">16<sup>th</sup></td><td class="cinfoHdL">8<sup>th</sup></td><td class="cinfoHdL">4<sup>th</sup></td><td class="cinfoHdL">2<sup>nd</sup></td><td class="cinfoHdL">Decimal</td><td class="cinfoHdL">Decimal<br>(inch to mm)</td></tr>
+
+<tr align="center"><td>1/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.015625</td><td class="cinfoBodL">0.396875</td></tr>
+<tr align="center"><td>2/64</td><td class="cinfoBodL">1/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.03125</td><td class="cinfoBodL">0.79375</td></tr>
+<tr align="center"><td>3/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.046875</td><td class="cinfoBodL">1.190625</td></tr>
+<tr align="center"><td>4/64</td><td class="cinfoBodL">2/32</td><td class="cinfoBodL">1/16</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.0625</td><td class="cinfoBodL">1.5875</td></tr>
+<tr align="center"><td>5/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.078125</td><td class="cinfoBodL">1.984375</td></tr>
+<tr align="center"><td>6/64</td><td class="cinfoBodL">3/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.09375</td><td class="cinfoBodL">2.38125</td></tr>
+<tr align="center"><td>7/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.109375</td><td class="cinfoBodL">2.778125</td></tr>
+<tr align="center"><td>8/64</td><td class="cinfoBodL">4/32</td><td class="cinfoBodL">2/16</td><td class="cinfoBodL">1/8</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.125</td><td class="cinfoBodL">3.175</td></tr>
+<tr align="center"><td>9/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.140625</td><td class="cinfoBodL">3.571875</td></tr>
+<tr align="center"><td>10/64</td><td class="cinfoBodL">5/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.15625</td><td class="cinfoBodL">3.96875</td></tr>
+<tr align="center"><td>11/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.171875</td><td class="cinfoBodL">4.365625</td></tr>
+<tr align="center"><td>12/64</td><td class="cinfoBodL">6/32</td><td class="cinfoBodL">3/16</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.1875</td><td class="cinfoBodL">4.7625</td></tr>
+<tr align="center"><td>13/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.203125</td><td class="cinfoBodL">5.159375</td></tr>
+<tr align="center"><td>14/64</td><td class="cinfoBodL">7/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.21875</td><td class="cinfoBodL">5.55625</td></tr>
+<tr align="center"><td>15/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.234375</td><td class="cinfoBodL">5.953125</td></tr>
+<tr align="center"><td>16/64</td><td class="cinfoBodL">8/32</td><td class="cinfoBodL">4/16</td><td class="cinfoBodL">2/8</td><td class="cinfoBodL">1/4</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.25</td><td class="cinfoBodL">6.35</td></tr>
+<tr align="center"><td>17/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.265625</td><td class="cinfoBodL">6.746875</td></tr>
+<tr align="center"><td>18/64</td><td class="cinfoBodL">9/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.28125</td><td class="cinfoBodL">7.14375</td></tr>
+<tr align="center"><td>19/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.296875</td><td class="cinfoBodL">7.540625</td></tr>
+<tr align="center"><td>20/64</td><td class="cinfoBodL">10/32</td><td class="cinfoBodL">5/16</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.3125</td><td class="cinfoBodL">7.9375</td></tr>
+<tr align="center"><td>21/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.328125</td><td class="cinfoBodL">8.334375</td></tr>
+<tr align="center"><td>22/64</td><td class="cinfoBodL">11/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.34375</td><td class="cinfoBodL">8.73125</td></tr>
+<tr align="center"><td>23/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.359375</td><td class="cinfoBodL">9.128125</td></tr>
+<tr align="center"><td>24/64</td><td class="cinfoBodL">12/32</td><td class="cinfoBodL">6/16</td><td class="cinfoBodL">3/8</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.375</td><td class="cinfoBodL">9.525</td></tr>
+<tr align="center"><td>25/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.390625</td><td class="cinfoBodL">9.921875</td></tr>
+<tr align="center"><td>26/64</td><td class="cinfoBodL">13/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.40625</td><td class="cinfoBodL">10.31875</td></tr>
+<tr align="center"><td>27/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.421875</td><td class="cinfoBodL">10.715625</td></tr>
+<tr align="center"><td>28/64</td><td class="cinfoBodL">14/32</td><td class="cinfoBodL">7/16</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.4375</td><td class="cinfoBodL">11.1125</td></tr>
+<tr align="center"><td>29/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.453125</td><td class="cinfoBodL">11.509375</td></tr>
+<tr align="center"><td>30/64</td><td class="cinfoBodL">15/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.46875</td><td class="cinfoBodL">11.90625</td></tr>
+<tr align="center"><td>31/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.484375</td><td class="cinfoBodL">12.303125</td></tr>
+<tr align="center"><td>32/64</td><td class="cinfoBodL">16/32</td><td class="cinfoBodL">8/16</td><td class="cinfoBodL">4/8</td><td class="cinfoBodL">2/4</td><td class="cinfoBodL">1/2</td><td class="cinfoBodL">0.5</td><td class="cinfoBodL">12.7</td></tr>
+<tr align="center"><td>33/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.515625</td><td class="cinfoBodL">13.096875</td></tr>
+<tr align="center"><td>34/64</td><td class="cinfoBodL">17/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.53125</td><td class="cinfoBodL">13.49375</td></tr>
+<tr align="center"><td>35/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.546875</td><td class="cinfoBodL">13.890625</td></tr>
+<tr align="center"><td>36/64</td><td class="cinfoBodL">18/32</td><td class="cinfoBodL">9/16</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.5625</td><td class="cinfoBodL">14.2875</td></tr>
+<tr align="center"><td>37/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.578125</td><td class="cinfoBodL">14.684375</td></tr>
+<tr align="center"><td>38/64</td><td class="cinfoBodL">19/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.59375</td><td class="cinfoBodL">15.08125</td></tr>
+<tr align="center"><td>39/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.609375</td><td class="cinfoBodL">15.478125</td></tr>
+<tr align="center"><td>40/64</td><td class="cinfoBodL">20/32</td><td class="cinfoBodL">10/16</td><td class="cinfoBodL">5/8</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.625</td><td class="cinfoBodL">15.875</td></tr>
+<tr align="center"><td>41/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.640625</td><td class="cinfoBodL">16.271875</td></tr>
+<tr align="center"><td>42/64</td><td class="cinfoBodL">21/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.65625</td><td class="cinfoBodL">16.66875</td></tr>
+<tr align="center"><td>43/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.671875</td><td class="cinfoBodL">17.065625</td></tr>
+<tr align="center"><td>44/64</td><td class="cinfoBodL">22/32</td><td class="cinfoBodL">11/16</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.6875</td><td class="cinfoBodL">17.4625</td></tr>
+<tr align="center"><td>45/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.703125</td><td class="cinfoBodL">17.859375</td></tr>
+<tr align="center"><td>46/64</td><td class="cinfoBodL">23/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.71875</td><td class="cinfoBodL">18.25625</td></tr>
+<tr align="center"><td>47/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.734375</td><td class="cinfoBodL">18.653125</td></tr>
+<tr align="center"><td>48/64</td><td class="cinfoBodL">24/32</td><td class="cinfoBodL">12/16</td><td class="cinfoBodL">6/8</td><td class="cinfoBodL">3/4</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.75</td><td class="cinfoBodL">19.05</td></tr>
+<tr align="center"><td>49/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.765625</td><td class="cinfoBodL">19.446875</td></tr>
+<tr align="center"><td>50/64</td><td class="cinfoBodL">25/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.78125</td><td class="cinfoBodL">19.84375</td></tr>
+<tr align="center"><td>51/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.796875</td><td class="cinfoBodL">20.240625</td></tr>
+<tr align="center"><td>52/64</td><td class="cinfoBodL">26/32</td><td class="cinfoBodL">13/16</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.8125</td><td class="cinfoBodL">20.6375</td></tr>
+<tr align="center"><td>53/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.828125</td><td class="cinfoBodL">21.034375</td></tr>
+<tr align="center"><td>54/64</td><td class="cinfoBodL">27/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.84375</td><td class="cinfoBodL">21.43125</td></tr>
+<tr align="center"><td>55/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.859375</td><td class="cinfoBodL">21.828125</td></tr>
+<tr align="center"><td>56/64</td><td class="cinfoBodL">28/32</td><td class="cinfoBodL">14/16</td><td class="cinfoBodL">7/8</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.875</td><td class="cinfoBodL">22.225</td></tr>
+<tr align="center"><td>57/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.890625</td><td class="cinfoBodL">22.621875</td></tr>
+<tr align="center"><td>58/64</td><td class="cinfoBodL">29/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.90625</td><td class="cinfoBodL">23.01875</td></tr>
+<tr align="center"><td>59/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.921875</td><td class="cinfoBodL">23.415625</td></tr>
+<tr align="center"><td>60/64</td><td class="cinfoBodL">30/32</td><td class="cinfoBodL">15/16</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.9375</td><td class="cinfoBodL">23.8125</td></tr>
+<tr align="center"><td>61/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.953125</td><td class="cinfoBodL">24.209375</td></tr>
+<tr align="center"><td>62/64</td><td class="cinfoBodL">31/32</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.96875</td><td class="cinfoBodL">24.60625</td></tr>
+<tr align="center"><td>63/64</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">&nbsp;</td><td class="cinfoBodL">0.984375</td><td class="cinfoBodL">25.003125</td></tr>
+<tr align="center"><td>64/64</td><td class="cinfoBodL">32/32</td><td class="cinfoBodL">16/16</td><td class="cinfoBodL">8/8</td><td class="cinfoBodL">4/4</td><td class="cinfoBodL">2/2</td><td class="cinfoBodL">1</td><td class="cinfoBodL">25.4</td></tr>
+</tbody></table>
+
+</div>
+	<div id="right">
+		<div style="padding-top:10px;  min-height:280px; text-align:center;">
+<script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+<script>
+  window.googletag = window.googletag || {cmd: []};
+  googletag.cmd.push(function() {
+	googletag.defineSlot('/1057446/Calculator-Top-Right-Desktop', [[300, 250], [336, 280]], 'div-gpt-ad-1589567013929-0').addService(googletag.pubads());
+	googletag.pubads().enableSingleRequest();
+	googletag.enableServices();
+  });
+</script>
+<!-- /1057446/Calculator-Top-Right-Desktop -->
+<div id="div-gpt-ad-1589567013929-0" data-google-query-id="CL_Ok--nyPcCFUKZjwodWgAKQA">
+  
+<div id="google_ads_iframe_/1057446/Calculator-Top-Right-Desktop_0__container__" style="border: 0pt none;"><iframe id="google_ads_iframe_/1057446/Calculator-Top-Right-Desktop_0" name="google_ads_iframe_/1057446/Calculator-Top-Right-Desktop_0" title="3rd party ad content" width="336" height="280" scrolling="no" marginwidth="0" marginheight="0" frameborder="0" role="region" aria-label="Advertisement" tabindex="0" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" srcdoc="" data-google-container-id="1" style="border: 0px; vertical-align: bottom;" data-load-complete="true"></iframe></div></div>
+</div>
+<table align="center" id="searchbox"><form name="calcSearchForm" onsubmit="calcSearch(); return false;" autocomplete="off"></form><tbody><tr><td><input type="text" name="calcSearchTerm" id="calcSearchTerm" class="inlongest" onkeyup="return calcSearch();"></td><td><span id="bluebtn" onclick="return calcSearch();">Search</span></td></tr><tr><td colspan="2"><div id="calcSearchOut"></div></td></tr></tbody></table><div id="othercalc"><div id="octitle"><a href="/math-calculator.html">Math Calculators</a></div><div id="occontent"><a href="/scientific-calculator.html">Scientific</a><a href="/fraction-calculator.html">Fraction</a><a href="/percent-calculator.html">Percentage</a><a href="/triangle-calculator.html">Triangle</a><a href="/volume-calculator.html">Volume</a><a href="/standard-deviation-calculator.html">Standard Deviation</a><a href="/random-number-generator.html">Random Number Generator</a><a href="/math-calculator.html">More Math Calculators</a></div><div id="ocother"><a href="/financial-calculator.html">Financial</a> | <a href="/fitness-and-health-calculator.html">Fitness and Health</a> | <a href="/math-calculator.html">Math</a> | <a href="/other-calculator.html">Other</a></div></div>	</div>
+</div>
+<div id="clear"></div>
+<div id="footer"><div id="footerin"><div id="footernav"><a href="/about-us.html">about us</a> | <a href="/sitemap.html">sitemap</a> | <a href="/about-us.html#terms">terms of use</a> | <a href="/about-us.html#privacy">privacy policy</a> &nbsp;  © 2008 - 2022 <a href="//www.calculator.net">calculator.net</a></div></div></div>
+<script type="text/javascript">
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-3068863-11']);
+_gaq.push(['_trackPageview','/fraction-calculator.html?c5num1=2+13%2F45&c5op=-&c5num2=3+15%2F65&ctype=5&x=104&y=31_____Section_3_US__do']);
+(function() {
+	var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+})();
+</script><iframe src="https://c2f63bf6aa42e53c57f9f8c77bc9a528.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html" style="visibility: hidden; display: none;"></iframe><div class="topNavAbs">
+<a href="/financial-calculator.html">Financial</a>
+<a href="/fitness-and-health-calculator.html">Fitness &amp; Health</a>
+<a href="/math-calculator.html" class="topNavOn">Math</a>
+<a href="/other-calculator.html">Other</a>
+</div>
+
+
+<iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0" style="display: none;"></iframe></body>
+</html>
