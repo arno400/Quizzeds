@@ -8,7 +8,7 @@
       choices: [558/576, 551/585, 557/595, 562/597,],
       correctAnswer: 1
     }, {
-      question: "Convert 1.375 to fraction.",
+      question: "Convert 1.375 to fraction",
       choices: [1 3/8, 2 5/8, 12/9, 9/9,],
       correctAnswer: 0
     }, {
