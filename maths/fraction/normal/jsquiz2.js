@@ -1,6 +1,5 @@
 (function() {
     var questions = [{
-      
       question: "What is 22/35 + 12/45?",
       choices: [76/105, 4/105, 92/105, 94/105,],
       correctAnswer: 3
