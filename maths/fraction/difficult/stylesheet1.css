@@ -58,7 +58,7 @@ button {
     margin:auto;
     background-position: center;
     padding: 0 25px 40px 10px;
-    background: URL("1.jpg") center no-repeat;
+    background: URL("image.jpg") center no-repeat;
     border:4px solid rgb(38, 0, 165);
     background-repeat: no-repeat;
     background-size:  auto;
@@ -76,7 +76,7 @@ button {
         background-attachment: scroll;
         background-position: center;
         background-size: cover;
-        background: URL("1.jpg")center no-repeat;
+        background: URL("image.jpg")center no-repeat;
     }
 }
 
@@ -86,7 +86,7 @@ button {
         background-attachment: scroll;
         background-position: center;
         background-size: cover;
-        background: URL("1.jpg")center no-repeat;
+        background: URL("image.jpg")center no-repeat;
     }
 }
 @media only screen and (max-width: 500px){
@@ -95,7 +95,7 @@ button {
         background-attachment: scroll;
         background-position: center;
         background-size: 100%;
-        background: URL("1.jpg")center no-repeat;
+        background: URL("image.jpg")center no-repeat;
     }
 }
 
